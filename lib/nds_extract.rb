@@ -17,9 +17,9 @@ index2  = 0
 
 while index2 < nds[index].length do
 
-value = nds[index][:movies][index2][:worldwide_gross]
 
-result[names] = value
+
+result[names] += nds[index][:movies][index2][:worldwide_gross]
 
 index2 += 1
 
