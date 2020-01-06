@@ -15,7 +15,7 @@ results[names] = 0
 
 index2  = 0
 
-while index2 < nds[index].length do
+while index2 < nds[index][:movies].length do
 
 results[names] += nds[index][:movies][index2][:worldwide_gross]
 
