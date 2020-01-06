@@ -27,7 +27,7 @@ index += 1
 
 end
 
-puts results
+return results
 
 end
 
