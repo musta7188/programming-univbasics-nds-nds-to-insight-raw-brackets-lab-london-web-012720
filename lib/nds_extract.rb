@@ -15,7 +15,7 @@ while index2 < nds[index].length do
 
 value = nds[index][:movies][index2][:worldwide_gross]
 
-result = { |variable|  names => value}
+result = { names => value}
 
 index2 += 1
 
